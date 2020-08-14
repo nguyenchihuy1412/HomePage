@@ -1,0 +1,60 @@
+/* General style */
+*{margin: 0; padding: 0; box-sizing: border-box;}
+body ::selection{background-color: yellow;}
+html,body{height: 100%; width: 100%; color: #555;}
+
+.container .bg {
+    background-image: url(images/Morning.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+
+.container .content {
+    position: absolute;
+    width: 800px;
+    height: auto;
+    text-align: center;
+    color: lightcyan;
+    font-size: 30px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-family: Orbitron;
+    z-index: 5;
+}
+
+#MyClockDisplay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    color: lightcyan;
+    font-size: 60px;
+    font-family: Orbitron;
+    letter-spacing: 7px;
+}
+
+/* @media(max-width:800px){
+    .container .content {
+        width: 600px;
+        font-size: 30px;
+    }
+    .container .content #MyClockDisplay {
+        font-size: 45px;
+        margin-top: -20px !important;
+    }
+}
+
+@media(max-width:600px) {
+    .container .content {
+        width: 470px;
+        font-size: 20px;
+    }
+    .container .content #MyClockDisplay {
+        font-size: 30px;
+        margin-top: -20px !important;
+    }
+} */
