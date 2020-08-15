@@ -39,7 +39,7 @@
         }
         if (today.getHours() >= 22) {
             display.innerHTML = 'Time to sleep.';
-            display2.innerHTML = 'Good night!';
+            display2.innerHTML = 'Good night master!';
             time.innerHTML = date;
             bg.style.backgroundImage = "url('images/Night.jpg')";
         }

@@ -3,6 +3,22 @@
 body ::selection{background-color: yellow;}
 html,body{height: 100%; width: 100%; color: #555;}
 
+.type {
+    width: 803px;
+    border-right: 3px solid lightcyan;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: type 4s steps(20,end),cursor 0.2s steps(12,end);
+}
+
+@keyframes type {
+    from {width: 0;}
+}
+
+@keyframes cursor {
+    50% {border-color: transparent;}
+}
+
 .container .bg {
     background-image: url(images/Morning.jpg);
     background-size: cover;
